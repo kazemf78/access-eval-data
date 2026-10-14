@@ -1,0 +1,630 @@
+{
+ "SimpleQA/answers.csv.gz": {
+  "bytes": 34467090,
+  "sha256": "1514d2e403a0eaaa90045c36aae6c4714db0a32086b31005900b8713aabf6f71"
+ },
+ "SimpleQA/equivalence_judge_verdicts.csv.gz": {
+  "bytes": 340823,
+  "sha256": "e77f6a78169ecf5c6e991d4a5de2430dfdf9fcf3944b1083a345f33d3eb27688"
+ },
+ "SimpleQA/formulations_manifest.csv.gz": {
+  "bytes": 341973,
+  "sha256": "c8589c6be8665c1b8a6d1bfe33cda018c6657a16bf71188aed9e3cbb9af1e6e1"
+ },
+ "SimpleQA/grades.csv.gz": {
+  "bytes": 11450108,
+  "sha256": "91337fdb580d75e13dc60f321fa41a641494033ddc9e55d693a289dd67315108"
+ },
+ "TruthfulQA/answers.csv.gz": {
+  "bytes": 28003185,
+  "sha256": "f154700d16ffbe4bd3db50c52e5b82a2af54ce4d77b41fc6b54cc5286045379e"
+ },
+ "TruthfulQA/equivalence_judge_verdicts.csv.gz": {
+  "bytes": 324368,
+  "sha256": "32efd2ef9310de851a2ac604cb130b50eb1848ebc843de774b70a80008592acd"
+ },
+ "TruthfulQA/formulations_manifest.csv.gz": {
+  "bytes": 180076,
+  "sha256": "715e6e57d9afed0cdd19e630fc3d3c8c0c205218e7c4ffe3c74aca4f333c1d4a"
+ },
+ "TruthfulQA/grades.csv.gz": {
+  "bytes": 8352540,
+  "sha256": "ed56746f9e474a4f11faed96534387365a15b92789fbcad9b074ebb1bd2dc046"
+ },
+ "TruthfulQA/grades_3gpt/gpt-3.5-turbo.csv.gz": {
+  "bytes": 733379,
+  "sha256": "97243707e98c5166cf63f9dc943ecff7a4ee1b350d1e88cc0701f07295716323"
+ },
+ "TruthfulQA/grades_3gpt/gpt-4.1-mini.csv.gz": {
+  "bytes": 733190,
+  "sha256": "612234f277512491ffd1ea47fc6e7c1d13d9e3994971a3849bd1bffab9cb5dbd"
+ },
+ "TruthfulQA/grades_3gpt/gpt-5.4-mini.csv.gz": {
+  "bytes": 3627041,
+  "sha256": "4be40ad742cd885d72ae7477da6bc151af896fa1dbb926736b4dd7371d612ef2"
+ },
+ "bfcl/inputs.tar.gz": {
+  "bytes": 985287,
+  "sha256": "0d5457a94a6839f757e98ed70bc26effbeaaf689489e87f387463304f249a51c"
+ },
+ "bfcl/results.tar.gz": {
+  "bytes": 13594222,
+  "sha256": "09a7af89694cfc59555d64eee68541afd042aefd6376b9ce4cdd753cf3629e83"
+ },
+ "bfcl/scores.tar.gz": {
+  "bytes": 12485747,
+  "sha256": "9eb242ff86517e91e8781b721296e58dab80800a3b780d7a973e2dc89ead7165"
+ },
+ "gsm8k_rerun/answers.csv.gz": {
+  "bytes": 13289471,
+  "sha256": "e2f3428fdf857d13366d18389e215606f619ebfdb155ea5aa2c3f0deb7da366e"
+ },
+ "gsm8k_rerun/formulations.csv.gz": {
+  "bytes": 457999,
+  "sha256": "b63a1ca6c3a625ace4716dfc26155614f8bb0e2ad26bafdcea5c8da82f385d63"
+ },
+ "gsm8k_test/answers/Qwen__Qwen2.5-7B-Instruct.csv.gz": {
+  "bytes": 2871128,
+  "sha256": "b5747dab5c609ced8c9cb7964c8d75cdfb6fea2380de938bc1e2a24d1fdcf95d"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-0.6B.csv.gz": {
+  "bytes": 2820393,
+  "sha256": "264e03b2251b3464153fda8b5885cf48ac82233106e46c1ea8b020a8601970ef"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-0.6B[with_thinking].csv.gz": {
+  "bytes": 13919266,
+  "sha256": "84dbc03d57187a459ad125d0caa6def19a3b16614b85ad9b5f0700484ffa255c"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-1.7B.csv.gz": {
+  "bytes": 3056234,
+  "sha256": "e5030471fc8de9c1d5d1013c80684fdafe72471afb4124666382d474366836e8"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-1.7B[with_thinking].csv.gz": {
+  "bytes": 15425708,
+  "sha256": "daf22cb83bbac40c8a30b14d4b1897ff408c3d631aa79070d2f4261edcfbeaae"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-14B.csv.gz": {
+  "bytes": 2931434,
+  "sha256": "9c0609af0a90d7a3cd7231fe6a1636ea947222fdd5a7c462b471132783ee8df6"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-14B[with_thinking].csv.gz": {
+  "bytes": 15070555,
+  "sha256": "15ddbbeb58a50b4deab9ba408148c96390c515fcbb057b6260669f3ab1722023"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-32B.csv.gz": {
+  "bytes": 2868507,
+  "sha256": "cdb1a7bda71156d26cbaab9c98d399c376b20f6cf8c1bdab73ab3c069b81cf93"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-32B[with_thinking].csv.gz": {
+  "bytes": 17964360,
+  "sha256": "60adc48c3ea4d62e71b67dc37e60fade853fadd15dd194c2ea44655dcdc5b968"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-4B.csv.gz": {
+  "bytes": 3024931,
+  "sha256": "63846dd9909ab924ba88ed5b20c9118b730d479f3b8d65ec6fc1b2c669befa50"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-4B[with_thinking].csv.gz": {
+  "bytes": 16165640,
+  "sha256": "213b34d10ac05d8d2049ea55e851ad9a5cd7fb61f4ae55829539dc1a9cd84ed5"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-8B.csv.gz": {
+  "bytes": 3006377,
+  "sha256": "4c2e8bd7fcb8040e026e0659c17f91064c98271685118b6d4b4f78b27a601642"
+ },
+ "gsm8k_test/answers/Qwen__Qwen3-8B[with_thinking].csv.gz": {
+  "bytes": 19213253,
+  "sha256": "3236d78ee4439a8746fa0ee2a647a116ae3423ab669d7de6325164461a70d995"
+ },
+ "gsm8k_test/answers/google__gemma-3-12b-it.csv.gz": {
+  "bytes": 2777079,
+  "sha256": "63d32a5be57eb0f6eda88fa9bda51f608b80ff1be988a932564b9f28deaaead5"
+ },
+ "gsm8k_test/answers/google__gemma-3-1b-it.csv.gz": {
+  "bytes": 3443209,
+  "sha256": "d2a54102b7e3b41f240b956aca4d3957833567402893781827b287d5b2a92ea6"
+ },
+ "gsm8k_test/answers/google__gemma-3-27b-it.csv.gz": {
+  "bytes": 2639040,
+  "sha256": "b6d396ad414f20925e3daf0460a33b2794a73b80a1901b304320db652f98f80e"
+ },
+ "gsm8k_test/answers/google__gemma-3-4b-it.csv.gz": {
+  "bytes": 3276554,
+  "sha256": "f719dad61a695fc1f586ef3f052eb0555213b83c27ff088dfc54d83288eea8c7"
+ },
+ "gsm8k_test/answers/gpt-3.5-turbo.csv.gz": {
+  "bytes": 2533946,
+  "sha256": "ef585d3fd73d4a62420e3ad4d0c5acff2f822ac3c4e457b2a8189d798556f521"
+ },
+ "gsm8k_test/answers/gpt-4.1-mini.csv.gz": {
+  "bytes": 2585177,
+  "sha256": "98ab8e213b1e9f9aa4c4f94b515caf7e67acf1cc455b278d149d2feb952898e4"
+ },
+ "gsm8k_test/answers/gpt-4.1-nano.csv.gz": {
+  "bytes": 2999190,
+  "sha256": "66c1127433f394153fa37cb78e54c4ea5d52e3d39dce53e068c1f7d0c5784b15"
+ },
+ "gsm8k_test/answers/gpt-4.1.csv.gz": {
+  "bytes": 2577674,
+  "sha256": "6576515150151b72cb8773a79f0a61676c2e15ec09409146566528a7f8d1d6da"
+ },
+ "gsm8k_test/answers/gpt-4o.csv.gz": {
+  "bytes": 2719923,
+  "sha256": "770cf9638f018395a04a1b327c8f4c47a319d70df1b420b6f1c6c7d40cd57b5b"
+ },
+ "gsm8k_test/answers/gpt-5.4-mini.csv.gz": {
+  "bytes": 2051759,
+  "sha256": "cde5ac5ef9502c02d438c2ba0756e4aab4f1ffb617d355ee3fcfa4c55cb525b1"
+ },
+ "gsm8k_test/answers/meta-llama__Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 2926588,
+  "sha256": "977ee02f62920ee6f91ec6a54086bb2dcad0f1c0b069ba6505881a0c46dc8300"
+ },
+ "gsm8k_test/answers/meta-llama__Meta-Llama-3-8B-Instruct.csv.gz": {
+  "bytes": 2463810,
+  "sha256": "b56b5ea0f2c199225ebc1f75ca8b2da3ca11996a8db574f5aef032333071120b"
+ },
+ "gsm8k_test/answers/mistralai__Mistral-7B-Instruct-v0.2.csv.gz": {
+  "bytes": 3218381,
+  "sha256": "0fe902fa5810098f60322255a035fe1ceeac86317ea62f83692d439421e9d44b"
+ },
+ "gsm8k_test/answers/rasyosef__Phi-1_5-Instruct-v0.1.csv.gz": {
+  "bytes": 2765236,
+  "sha256": "fbae0ec19931d4378d066a17e02d4e80d5befd4187a1ab6a370856afde3d37dd"
+ },
+ "gsm8k_test/equivalence_judge_verdicts.csv.gz": {
+  "bytes": 2360396,
+  "sha256": "8b97fb18feb0dc05cf9c00bda6217a15ae7623f88ee97b7ac7ec4c3061f5254f"
+ },
+ "gsm8k_test/formulations_manifest.csv.gz": {
+  "bytes": 1003430,
+  "sha256": "8425921f9657ce30f1d23666b8ffbc827ba7cfea4b49a3b4b0580a15e4e399f6"
+ },
+ "math_500_test/answers.csv.gz": {
+  "bytes": 27401802,
+  "sha256": "86acce28cc7711ae31442a569d023fb19d7b2fbbd6134191a91e9522874553bb"
+ },
+ "math_500_test/equivalence_judge_verdicts.csv.gz": {
+  "bytes": 163425,
+  "sha256": "bd9805409910d0b1180e757e08384f7b1280b07f0a0f47a4d9c21b59ba886a94"
+ },
+ "math_500_test/formulations_manifest.csv.gz": {
+  "bytes": 75728,
+  "sha256": "eec9ad3cf6e584fdb0a1dd1a10228a8dca2ab3357c146d0bb51e323053b28f49"
+ },
+ "mmlu/answers/Qwen_Qwen2.5-7B-Instruct.csv.gz": {
+  "bytes": 1057648,
+  "sha256": "a252d3da54e6b8afb962b7eab8dcaa5523e7f91b605d7c57e5cd4ff4b4a64c4a"
+ },
+ "mmlu/answers/Qwen_Qwen3-0.6B.csv.gz": {
+  "bytes": 642311,
+  "sha256": "61c71870bc65cccec41ada25cd4fb494b17c6f9705f8bd4d97580e8f04e98e74"
+ },
+ "mmlu/answers/Qwen_Qwen3-0.6B_with_thinking_.csv.gz": {
+  "bytes": 3223661,
+  "sha256": "7e8f39edc05300d2dba233e9ce75244d8b1b1eb49731d9bc0028dc9170d1ac25"
+ },
+ "mmlu/answers/Qwen_Qwen3-1.7B.csv.gz": {
+  "bytes": 1483557,
+  "sha256": "65ed60e58f50860ab461a3f5ba17734941e410e8805ceeedb8123cdcdd696f8a"
+ },
+ "mmlu/answers/Qwen_Qwen3-1.7B_with_thinking_.csv.gz": {
+  "bytes": 4762096,
+  "sha256": "ae3970799b404c30b22f63a589dd2f0afa5dbf1c0a0ada5cfd8a0fcf7c5b11c5"
+ },
+ "mmlu/answers/Qwen_Qwen3-14B.csv.gz": {
+  "bytes": 858435,
+  "sha256": "d3d6324a2360ce2bac10b09046276b5d9748aa91384cb9c0fb929054a44b6c23"
+ },
+ "mmlu/answers/Qwen_Qwen3-14B_with_thinking_.csv.gz": {
+  "bytes": 3524393,
+  "sha256": "2d225e8ade0ea3a64dca62de91eb79ab1d876e86144b09673f4f00c301bdd1dc"
+ },
+ "mmlu/answers/Qwen_Qwen3-32B.csv.gz": {
+  "bytes": 779576,
+  "sha256": "59b25c3cf0c3d2f61b331354d756eff9e51141444ab431f0a63079c677ccb22b"
+ },
+ "mmlu/answers/Qwen_Qwen3-32B_with_thinking_.csv.gz": {
+  "bytes": 3398760,
+  "sha256": "abf1231ec51bb08151a41734b5d6ff75afd1a8d0e9df8bcbf5057e60d3e8a2f6"
+ },
+ "mmlu/answers/Qwen_Qwen3-4B.csv.gz": {
+  "bytes": 890031,
+  "sha256": "160dbb2fc4104d4567db4f2e4cb9c9425cddfe861643201845f6c52dddb8627f"
+ },
+ "mmlu/answers/Qwen_Qwen3-4B_with_thinking_.csv.gz": {
+  "bytes": 4013044,
+  "sha256": "609e78278502ba833780f1e1b668f4f101db9026e9b4939979e0b936128bfe63"
+ },
+ "mmlu/answers/Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 1650027,
+  "sha256": "127c10c7ce2dcff0c68a159d772613012b0067593a0837d82fc12f1fc5a69ff1"
+ },
+ "mmlu/answers/Qwen_Qwen3-8B_with_thinking_.csv.gz": {
+  "bytes": 6714217,
+  "sha256": "936080ef75cf3a0716887a40184c91e5c80ea48ed82342766d495fbae8550cc1"
+ },
+ "mmlu/answers/google_gemma-3-12b-it.csv.gz": {
+  "bytes": 2476142,
+  "sha256": "3296a1a6c4f2f72c65a3960de21eb6a255d27f70ce0d1547b1e9d24249731b62"
+ },
+ "mmlu/answers/google_gemma-3-1b-it.csv.gz": {
+  "bytes": 1496449,
+  "sha256": "46ff455f4f0a2cc0dc2142ee3f38ef7a26340e5662ebc8229d29c096826560c3"
+ },
+ "mmlu/answers/google_gemma-3-27b-it.csv.gz": {
+  "bytes": 1599744,
+  "sha256": "ecfc25f572f0f28f4cad9f34a61876d63d4fb0a9025e3daa4d3cd0d307e063c6"
+ },
+ "mmlu/answers/google_gemma-3-4b-it.csv.gz": {
+  "bytes": 1929839,
+  "sha256": "f52fd1a586b85bcc0281894782ebeb2d42a319fb0b428166daa9c3c52e8712db"
+ },
+ "mmlu/answers/gpt-3.5-turbo.csv.gz": {
+  "bytes": 118265,
+  "sha256": "9251385fcfddfddd80b07519bf8e9a223515a48e469b93ff133e0a0950872f32"
+ },
+ "mmlu/answers/gpt-4.1-mini.csv.gz": {
+  "bytes": 512958,
+  "sha256": "25021dbafd88df38c8b413e950f2b75886967120b43f42a3bc6533353ce7d02d"
+ },
+ "mmlu/answers/gpt-4.1-mini_dry.csv.gz": {
+  "bytes": 15721,
+  "sha256": "a148359be9401f08e335d61a5492c9533eca4ba10e80149a968c924ac4fddd42"
+ },
+ "mmlu/answers/gpt-4.1-nano.csv.gz": {
+  "bytes": 745556,
+  "sha256": "53938c48ced55b7a813e88cfe3ff9a1f55f38984e8036b20892a9d0b64641609"
+ },
+ "mmlu/answers/gpt-4.1.csv.gz": {
+  "bytes": 576333,
+  "sha256": "0cad8588c90906e0a9c4eca60ad1453c7d2bebf5c3a504e789763bf0b359d553"
+ },
+ "mmlu/answers/gpt-4o.csv.gz": {
+  "bytes": 200179,
+  "sha256": "00acb525fcd2fd0d4ec39004d0e719900b3d07a7f644ca7e3d193e39e7e215cb"
+ },
+ "mmlu/answers/gpt-5.4-mini.csv.gz": {
+  "bytes": 406013,
+  "sha256": "bfb8aa6146b012a11c0d3b7d254c6aa77a0d557041ce8f222f2ed51ba1175d1e"
+ },
+ "mmlu/answers/meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 1038047,
+  "sha256": "b39e1afb86a1cfa260b413bf602b0907ce9e7afbc0a7488c1e629a2b12e27b08"
+ },
+ "mmlu/answers/meta-llama_Meta-Llama-3-8B-Instruct.csv.gz": {
+  "bytes": 1077225,
+  "sha256": "0bf6619beb15bb071b67fae8e6ec6772746de109b37c661d8f28367e287d27b9"
+ },
+ "mmlu/answers/mistralai_Mistral-7B-Instruct-v0.2.csv.gz": {
+  "bytes": 857904,
+  "sha256": "61d6c9bf6e6f990a14b9b2d3069351be88811aa95b5cae16e71db5e819591ce9"
+ },
+ "mmlu/answers/rasyosef_Phi-1_5-Instruct-v0.1.csv.gz": {
+  "bytes": 140742,
+  "sha256": "7f15b90646b0bff11b6f0859aa28e6c39d29ebe4976622f8ea61678312aac9b0"
+ },
+ "mmlu/formulations.json": {
+  "bytes": 2924788,
+  "sha256": "a40ffa8e26f1d524b5bd9610825f7e7653bb2362f38609c30f015a85935c46b6"
+ },
+ "rq2/determinism/SimpleQA_sampled_questions.csv.gz": {
+  "bytes": 11342,
+  "sha256": "e93dd8496b75435ee409f336a11b8491201aab726630c9d5d3d49bada70d6896"
+ },
+ "rq2/determinism/TruthfulQA_sampled_questions.csv.gz": {
+  "bytes": 9916,
+  "sha256": "34259f256a89b2128836a3315ce8da6df1383559df62baf1e6444ee8d1996cb3"
+ },
+ "rq2/determinism/determinism_full_summary.csv.gz": {
+  "bytes": 1297,
+  "sha256": "0ac13cd222b454922e5d7c22794e3d6fe54b4ff593920e873f0e9451eec93d2c"
+ },
+ "rq2/determinism/determinism_summary.csv.gz": {
+  "bytes": 427,
+  "sha256": "f1a177a2177993d0ee8fa0b8a1722fbfddde1a7bb3ff7405f5b0acb504e00244"
+ },
+ "rq2/determinism/disagreements_SimpleQA_Qwen_Qwen3-0.6B.csv.gz": {
+  "bytes": 1677,
+  "sha256": "b790576992021c2d14f0f7fba47c64369868f30aacd3c09618f0852fd318a4da"
+ },
+ "rq2/determinism/disagreements_SimpleQA_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 5376,
+  "sha256": "86fd37b20bfee487a3078b817c1cd6e003c09d26dff9ba692ce5e256d00300a1"
+ },
+ "rq2/determinism/disagreements_SimpleQA_gpt-4.1-mini.csv.gz": {
+  "bytes": 8368,
+  "sha256": "8a77c64f1acb1ee10a7b5b83f966a9ac0546b216edaa534237c1c7052258f5ab"
+ },
+ "rq2/determinism/disagreements_SimpleQA_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 406,
+  "sha256": "7f254ebb7782803c7612572c0f0c84bf0d2b76104d0fe528d12a7a9ad9767e0a"
+ },
+ "rq2/determinism/disagreements_TruthfulQA_Qwen_Qwen3-0.6B.csv.gz": {
+  "bytes": 9602,
+  "sha256": "5ae13f6af8e1ae16a5b7d839aedd5d3f449989d52b573e8ee88bece27e06470a"
+ },
+ "rq2/determinism/disagreements_TruthfulQA_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 28578,
+  "sha256": "1be54004006904ada6b622cfb435dbed417bceaeac3e0c97c04c0532cc927b01"
+ },
+ "rq2/determinism/disagreements_TruthfulQA_gpt-4.1-mini.csv.gz": {
+  "bytes": 36064,
+  "sha256": "eeb15700227da949150837180698b05e6cc8143b3324854077eb7c8d8f0029c4"
+ },
+ "rq2/determinism/disagreements_TruthfulQA_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 21425,
+  "sha256": "e6bdc45eb5c0a38ebc1987304a379463bd893dfb6576382d955129342a80fa45"
+ },
+ "rq2/determinism/disagreements_gsm8k_test_Qwen_Qwen3-0.6B.csv.gz": {
+  "bytes": 66039,
+  "sha256": "66370b3760f94e8c771eae63447bb3dd70b17aab26630c86c7c3c496cfb06b05"
+ },
+ "rq2/determinism/disagreements_gsm8k_test_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 62508,
+  "sha256": "6753adb93d88c1e5e900c21f2a804db43e49e8e7453bad6c1b40a45bc7c3e91a"
+ },
+ "rq2/determinism/disagreements_gsm8k_test_gpt-4.1-mini.csv.gz": {
+  "bytes": 76607,
+  "sha256": "b32218d4c819c25072ac2e86df07ea6e77ad89ac313e30e1f986fb5e1ef1b767"
+ },
+ "rq2/determinism/disagreements_gsm8k_test_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 55512,
+  "sha256": "cc8a5687c0bbfe4aa4a8000aa8fefb6136963cbcd7d19a2026324bb346a4a83b"
+ },
+ "rq2/determinism/graded_SimpleQA_Qwen_Qwen3-0.6B.csv.gz": {
+  "bytes": 5391,
+  "sha256": "39188cb16f873c20d10e8034e8d94344980f442546378196cc62a6ed6f2b865f"
+ },
+ "rq2/determinism/graded_SimpleQA_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 13543,
+  "sha256": "3569745f1b8165c7a72bce0a5f5d0788722f2b32c4aa0dfef3c96e95cf6db8b2"
+ },
+ "rq2/determinism/graded_SimpleQA_gpt-4.1-mini.csv.gz": {
+  "bytes": 15490,
+  "sha256": "ef6fd24a54c398d9cff60b62710746978353a1a3bc3f75d0bdba34776b8697ea"
+ },
+ "rq2/determinism/graded_SimpleQA_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 3712,
+  "sha256": "b6d19362fbd910a00a73ab846ebbb6d648fa60c7c29c26cde2671e2e23679201"
+ },
+ "rq2/determinism/graded_TruthfulQA_Qwen_Qwen3-0.6B.csv.gz": {
+  "bytes": 15420,
+  "sha256": "0dca1a37de47caf20c9f9ae6459d89aead2b207fafb1fae474f598dfd4f63926"
+ },
+ "rq2/determinism/graded_TruthfulQA_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 112064,
+  "sha256": "503d4c9582720572b9f8aad2b3edfe3dd2889ba1196406713ee30cd21fce7871"
+ },
+ "rq2/determinism/graded_TruthfulQA_gpt-4.1-mini.csv.gz": {
+  "bytes": 87364,
+  "sha256": "3b765948ba2a3d9d6045754ef9f5c720bb9b6208e388959f6869bbd59bd1dd06"
+ },
+ "rq2/determinism/graded_TruthfulQA_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 85050,
+  "sha256": "7c8f2205463c76b2543be7bbe53486986cfb1c6c5cc6c72f859a4a65e7992a80"
+ },
+ "rq2/determinism/graded_gsm8k_test_Qwen_Qwen3-0.6B.csv.gz": {
+  "bytes": 178346,
+  "sha256": "6f03ee9b8eb5c12c750d981e25f5f5ab224f66a18d3621111c73fc2ed31f8932"
+ },
+ "rq2/determinism/graded_gsm8k_test_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 200140,
+  "sha256": "976be9069ba67d824fe67037be5cb509bbf7ccc4bc93fcf5d83b8d996aad6653"
+ },
+ "rq2/determinism/graded_gsm8k_test_gpt-4.1-mini.csv.gz": {
+  "bytes": 182420,
+  "sha256": "a84c3978ab414508301c45a03cad70fce1e8d607c734cd4f645ebdc5aebe2882"
+ },
+ "rq2/determinism/graded_gsm8k_test_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 194556,
+  "sha256": "9aceda6d2d7e33d4a67e390a91a99eebd430d3de24353c586ed1938f95fe9e22"
+ },
+ "rq2/determinism/grading_skip_statistics.csv.gz": {
+  "bytes": 526,
+  "sha256": "e0e6c8fa15305e39a704a1a926a963d6b4723ba07a22c163385e4be7d3113a39"
+ },
+ "rq2/determinism/gsm8k_test_sampled_questions.csv.gz": {
+  "bytes": 36974,
+  "sha256": "f1a76f9f32c8c150df71387cb6144c5f9956bb8556df95b0045dee6092943357"
+ },
+ "rq2/determinism/pairwise_agreement_summary.csv.gz": {
+  "bytes": 419,
+  "sha256": "353e9914bcffafc67af54dd92c834337ac079f75dc26955602447436c2ee5c2f"
+ },
+ "rq2/determinism/per_question_detail.csv.gz": {
+  "bytes": 20105,
+  "sha256": "89c8dcabe1ba73324b001a082fbf50c20affe3681d5e60ea2f5880e292dc2d81"
+ },
+ "rq2/determinism/per_repeat_id_summary.csv.gz": {
+  "bytes": 1113,
+  "sha256": "76bddeecb6cd2aed99993dddc1cff95d568f49cac065ac446e239ffb7d64acd2"
+ },
+ "rq2/determinism/per_repeat_id_vs_reference_detail.csv.gz": {
+  "bytes": 48174,
+  "sha256": "ec9fe344ce001e7540ffac4af86d694ea2d8ef18cebac535b719b4fff749dc02"
+ },
+ "rq2/determinism/prefix_agreement_detailed.csv.gz": {
+  "bytes": 66963,
+  "sha256": "cf5342ed8f2d54bd8aeaf9336f4bbb9dce151369445b7f0294ba24339d4aa15b"
+ },
+ "rq2/determinism/prefix_agreement_full_table.csv.gz": {
+  "bytes": 598,
+  "sha256": "ec4a1342740c7ebd85a0d6ffa0dfed6896adf1c2ce44503f90db169684e80119"
+ },
+ "rq2/determinism/prefix_agreement_per_model_dataset.csv.gz": {
+  "bytes": 520,
+  "sha256": "67b1058b6b82d817c342c5499f62194fe40fe92cebfb2e8794248b6a2b21fa01"
+ },
+ "rq2/determinism/prefix_agreement_per_repeat_id.csv.gz": {
+  "bytes": 1133,
+  "sha256": "1f57c5ab5291158b5d7c44e259e79aa0a88eee3408733d5ae112083379eb9c92"
+ },
+ "rq2/determinism/raw_SimpleQA_Qwen_Qwen3-0.6B.csv.gz": {
+  "bytes": 5287,
+  "sha256": "2b29c3a0eace9faa0c795dca61adb3f46ef18b3176263d9c1ec463aef0202dba"
+ },
+ "rq2/determinism/raw_SimpleQA_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 13419,
+  "sha256": "716a6c641fdde8a577f0e321d378affb8d67da80a34586426a2fe205935b58a5"
+ },
+ "rq2/determinism/raw_SimpleQA_gpt-4.1-mini.csv.gz": {
+  "bytes": 15222,
+  "sha256": "f0073e65376c134a582a1a17cc953e8c18de7f8b92aae30280fe37d986810f9d"
+ },
+ "rq2/determinism/raw_SimpleQA_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 3678,
+  "sha256": "56a0b2b9979c03022d5827142531ee98cf7769631a993a0df5bdbb97468097be"
+ },
+ "rq2/determinism/raw_TruthfulQA_Qwen_Qwen3-0.6B.csv.gz": {
+  "bytes": 15244,
+  "sha256": "72919d4f9d71ba74b8d76ab38e3592102d66d2e0ea9f9286f1124f8c13c75ea2"
+ },
+ "rq2/determinism/raw_TruthfulQA_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 111315,
+  "sha256": "ea692b61854850efe3250d057b22aee6345fcc88ba9dc289f550bc368e6d1bd6"
+ },
+ "rq2/determinism/raw_TruthfulQA_gpt-4.1-mini.csv.gz": {
+  "bytes": 86412,
+  "sha256": "39c4360b3f0f57e8448bde589cc954a8edc15968f4a9d8c71f0ad16356161840"
+ },
+ "rq2/determinism/raw_TruthfulQA_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 84535,
+  "sha256": "c8811800beca8503b989085a302e32f0e71605b251288297fab0de4a21086b79"
+ },
+ "rq2/determinism/raw_gsm8k_test_Qwen_Qwen3-0.6B.csv.gz": {
+  "bytes": 177721,
+  "sha256": "bc04cd2e7f9ff6921754dde3f7c3bd0776f6ab819dabb0454f1f271d3ecb588e"
+ },
+ "rq2/determinism/raw_gsm8k_test_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 199553,
+  "sha256": "f7bc7828c94cd09d595cdde18fa2bec268b0d8797dc3da6eeda6353d3b6efa42"
+ },
+ "rq2/determinism/raw_gsm8k_test_gpt-4.1-mini.csv.gz": {
+  "bytes": 181902,
+  "sha256": "b5f2a56491f8eb7974db78ec5ce75ba4d90d5ec3d39460736c6d3df92836d437"
+ },
+ "rq2/determinism/raw_gsm8k_test_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 193938,
+  "sha256": "c150817713f9bc4cf64a1c71e8464eab730aa76d8c4fc16cc452dcad47a9796f"
+ },
+ "rq2/variability/SimpleQA_formulation_only_existing.csv.gz": {
+  "bytes": 73644,
+  "sha256": "5327a946e309d4008f1bc13f67d92002b98ec9273d4c0650007cf3f7fee75eec"
+ },
+ "rq2/variability/SimpleQA_formulations.csv.gz": {
+  "bytes": 29206,
+  "sha256": "1890bfd594f9447f2fc643dffb53ac55b000dc06085d835622558fb14cf745ed"
+ },
+ "rq2/variability/TruthfulQA_formulation_only_existing.csv.gz": {
+  "bytes": 149864,
+  "sha256": "33816c2b36b1c99874de5b2eddca36246fd3033c62545023a159b4d54784edd7"
+ },
+ "rq2/variability/TruthfulQA_formulations.csv.gz": {
+  "bytes": 18749,
+  "sha256": "f22e32a669ad780ab382d6c7fd7591753ec9a3f9dd5a4ebbd1c5066eca35eba9"
+ },
+ "rq2/variability/gencache_SimpleQA_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 236158,
+  "sha256": "ad2a00951544a147996aaf73d9bc3ad480912e138a80b2efa1c2e844469549e9"
+ },
+ "rq2/variability/gencache_SimpleQA_gpt-4.1-mini.csv.gz": {
+  "bytes": 225049,
+  "sha256": "7bb805ce91c41db65b140eb3031d11758f8f2f12458760ad9d1213f149eec229"
+ },
+ "rq2/variability/gencache_SimpleQA_gpt-4o.csv.gz": {
+  "bytes": 163522,
+  "sha256": "628a705890f89fccde3b19901e24b9ce56efc8b44e631a149250eef64c5656e6"
+ },
+ "rq2/variability/gencache_SimpleQA_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 163199,
+  "sha256": "b3dc80cef9b5046e8c5115f56af9b4f82ac1dd25b5917d97b006ee02b1227beb"
+ },
+ "rq2/variability/gencache_TruthfulQA_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 331945,
+  "sha256": "01bcabde5bef7f3754c25718df93c8003dc7ff9b0b05dc80f37366d7b8d87729"
+ },
+ "rq2/variability/gencache_TruthfulQA_gpt-4.1-mini.csv.gz": {
+  "bytes": 252336,
+  "sha256": "d3d97e2740f2c7621f1394b5aa5d663f52abb062e11b95786ffcb202e219f886"
+ },
+ "rq2/variability/gencache_TruthfulQA_gpt-4o.csv.gz": {
+  "bytes": 171087,
+  "sha256": "661401eab4e40e5ac5aaa32e35c509f7cf49eaa13734136315b91a645094da4a"
+ },
+ "rq2/variability/gencache_TruthfulQA_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 308104,
+  "sha256": "ba7dfb614feec32d52d55c41a8009408f18c339f18f3a59737e725d6e3fbcdf3"
+ },
+ "rq2/variability/gencache_gsm8k_test_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 1154270,
+  "sha256": "518e1dcf00166cc8981d364b553eda3d2ac6cedf0dea03ee6bfa49beedff8686"
+ },
+ "rq2/variability/gencache_gsm8k_test_gpt-4.1-mini.csv.gz": {
+  "bytes": 995670,
+  "sha256": "b70e6545d39fc0e8b1bdea0e2ed2538210d88fbf8a54af09f3e930262541ce48"
+ },
+ "rq2/variability/gencache_gsm8k_test_gpt-4o.csv.gz": {
+  "bytes": 1152821,
+  "sha256": "f939029f8d665176f28484afdfe3a8b871cf4ec4b7a03ebca0ffaff147617792"
+ },
+ "rq2/variability/gencache_gsm8k_test_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 1210709,
+  "sha256": "755e7e6c830033ea89a4133961a7d56dc24aebe5550c18ca3e2b07e1ee4951c8"
+ },
+ "rq2/variability/graded_variability_SimpleQA_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 118388,
+  "sha256": "2a5bc653e6cbd416cb96946a1197a43fa4a67e66b9e3d4187ffcc985c19ca6d8"
+ },
+ "rq2/variability/graded_variability_SimpleQA_gpt-4.1-mini.csv.gz": {
+  "bytes": 99331,
+  "sha256": "baf021f8b005b215d86dd264596b7e22a52da7caa1110a8bcab377010d57f800"
+ },
+ "rq2/variability/graded_variability_SimpleQA_gpt-4o.csv.gz": {
+  "bytes": 65756,
+  "sha256": "c2ddde65c1dc16fa23b1bc816be6adda43cdc4b5bbf5019d11df7ffcd246350d"
+ },
+ "rq2/variability/graded_variability_SimpleQA_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 75485,
+  "sha256": "d5a151dc07db16e8faeeff83151e521be12d641790b2175e9b24f020cc2b50b0"
+ },
+ "rq2/variability/graded_variability_TruthfulQA_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 183771,
+  "sha256": "52010cac884d739d8ed90a375db79aa3bc808963a5c3d71edc7f3d9a938ec178"
+ },
+ "rq2/variability/graded_variability_TruthfulQA_gpt-4.1-mini.csv.gz": {
+  "bytes": 126313,
+  "sha256": "96fd1d1e8924e873b001b5443a6d4a684338a3f645127499c5f4941f1c14121a"
+ },
+ "rq2/variability/graded_variability_TruthfulQA_gpt-4o.csv.gz": {
+  "bytes": 83169,
+  "sha256": "5ed4458c90030c313b46fd6937bf5dcb7da2bf113899c5150c9cb86e24af75ca"
+ },
+ "rq2/variability/graded_variability_TruthfulQA_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 200189,
+  "sha256": "9b03838d2b2bd23cdc9a07f79ab9f8dec7069f83658ddbfe4aac434d467c72a0"
+ },
+ "rq2/variability/graded_variability_gsm8k_test_Qwen_Qwen3-8B.csv.gz": {
+  "bytes": 675035,
+  "sha256": "ade31b2d4485ffb131337c3e616eaaf10343ce0affc90b4d6c26e71e8b8d9ab1"
+ },
+ "rq2/variability/graded_variability_gsm8k_test_gpt-4.1-mini.csv.gz": {
+  "bytes": 575092,
+  "sha256": "86acc4b0e1b5c3600c4e1daac4eafe0a7123f447d9fc6bd963c88e48b75e1623"
+ },
+ "rq2/variability/graded_variability_gsm8k_test_gpt-4o.csv.gz": {
+  "bytes": 698756,
+  "sha256": "a771036e5492c8d78846741d2bb69f31eaed51c39f1483b4788fb29b4933411a"
+ },
+ "rq2/variability/graded_variability_gsm8k_test_meta-llama_Llama-3.1-8B-Instruct.csv.gz": {
+  "bytes": 833109,
+  "sha256": "e5219dd02d5d0e56e0a9d0dbfc238d26e6889ddf7a6cedeafc2c3c6dfdd369ca"
+ },
+ "rq2/variability/gsm8k_test_formulation_only_existing.csv.gz": {
+  "bytes": 602810,
+  "sha256": "8629ba6d6f36486b4f0e639bafe38993ce246f2d4b6b768b188a9476c4f9dcd0"
+ },
+ "rq2/variability/gsm8k_test_formulations.csv.gz": {
+  "bytes": 56749,
+  "sha256": "9cbe2a804122280dad68dd15ae39a12b29e3eb7300acf09fa97d55b86e75ca6d"
+ }
+}
