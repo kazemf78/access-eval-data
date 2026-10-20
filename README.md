@@ -3,7 +3,8 @@
 Full per-formulation model answers, judge grades and paraphrase-equivalence verdicts behind
 
 > *Revealing what benchmark scores hide: Jointly measuring the breadth and reliability of LLM capabilities using
-> accessibility profiles.* arXiv preprint, 2026.
+> accessibility profiles.* Kazem Faghih, Yize Cheng, Shoumik Saha, Mobina Pournemat, Armin Gerami, Soheil Feizi.
+> [arXiv:2610.24957](https://arxiv.org/abs/2610.24957), 2026.
 
 Code, the validated formulation sets and the compact tables that reproduce every figure and number of the paper are
 in [access-eval](https://github.com/kazemf78/access-eval). You only need this repository to re-grade answers, audit
